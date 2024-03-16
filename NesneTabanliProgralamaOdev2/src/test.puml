@@ -1,0 +1,23 @@
+@startuml
+class Ogrenci {
+  - ad: String
+  - bolum: String
+  - girisYili: int
+  - ogrNo: int
+  - gano: double
+  - bolumKodu: int
+
+  + Ogrenci(ad: String, bolum: String, girisYili: int, gano: double)
+  + BolumKodu(bolum: String): void
+  + generateOgrNo(girisYili: int, bolumKodu: int): int
+  + harcHesapla(dersSayisi: int): double
+  + harcHesapla(dersSayisi: int, uzatilanYil: int): double
+}
+
+class Main {
+  + main(args: String[]): void
+}
+
+String <|-- Ogrenci
+Ogrenci "1" *-- "1" Main
+@enduml
