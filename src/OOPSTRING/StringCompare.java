@@ -42,6 +42,10 @@ public class StringCompare {
 
         //test regionMatches(case sensitive)
         if(s3.regionMatches(0,s4,0,5))
+            //toffset ile karşılaştırmanın başlayacğı stringin başlangıçkonumu,
+            //sonrasında karşılaştıralacak string
+            //offset diğer stringin başlngıç konumu
+            //len ilede karşılaştırılacak maksimum boyut
             System.out.println("\nFirst 5 characters of s3 and s4 match");
         else
             System.out.println("\nFirst 5 characters of s3 and s4 not match");
@@ -51,11 +55,6 @@ public class StringCompare {
             System.out.println("Firs 5 characters of s3 and s4  match with case ignored");
         else
             System.out.println("Firs 5 characters of s3 and s4  fo not match");
-
-
-
-
-
 
     }
 }

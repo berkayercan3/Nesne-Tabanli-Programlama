@@ -27,5 +27,6 @@ public class StringMiscellaneous {
         for(char character: charArray){
             System.out.print(character);
         }
+
     }
 }
