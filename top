@@ -1,0 +1,155 @@
+[33mcommit 73f9b554abf27ace5993232cc830fe92eb524e47[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Mon Apr 8 23:55:09 2024 +0300
+
+    OOP_STRİNG_TWO
+    
+    .regionMatches()
+    .indexOf(),
+    .lastIndexOf,
+    .startsWith(),
+    .endsWith(),
+    .substring(),
+
+[33mcommit 0aca6fe78b2d839e68df7f1bd2052ca69ccd19b7[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sun Apr 7 23:55:54 2024 +0300
+
+    OOP_STRİNG_ONE
+    
+     String s3= new String(helloWorld,6,5); // 6. kısımdan itibaren 5 tane bölmedeki ifadeyi al
+                                                                //çıktı: world
+    
+    string reverse
+    .getChars()
+     StringCompare[.equals() , test for equals with ( == ) ,.equalsIgnoreCase() ,.compareTo(),.regionMatches(),
+
+[33mcommit 6fe07c6e4d756330d4cba20f73fc4f088b92b05a[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Thu Apr 4 20:42:29 2024 +0300
+
+    OOP_INHERITANCE
+    
+            Kalıtım; Mevcut bir sınıfın üyelerini kullanarak, onları yeni / değiştirilmiş yeteneklerle
+             süsleyerek yeni bir sınıf oluşturulur.
+            “has-a” ve “is-a” arasındaki ayrımı yapmak gerekir. Is-a kalıtımı temsil eder.
+             Bir is-a ilişkisinde, bir alt sınıfın nesnesi, üst sınıfının bir nesnesi olarak da ele alınabilir.
+             Has-a kompozisyonu temsil eder. Has-a ilişkisinde, bir nesne üye olarak diğer nesnelere
+     referanslar içerir.
+
+[33mcommit ef9ec166a73eeafd3bd5cffec66a5885427394e6[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Tue Apr 2 19:43:23 2024 +0300
+
+    OOP_ENUM
+    
+    ENUM TYPE:
+            Java'da Enum tipi, bir veri türüdür ve bir sınıf gibi davranır, ancak belirli bir sabit listesini
+             temsil eder. Enum (numaralandırma) tipleri, programın farklı durumları veya seçenekleri
+            temsil etmesi gereken durumlarda kullanışlıdır.
+    
+            Enum bildirimleri şu kısıtlar altında bildirilir;
+             Enum sabitleri “final” olmalıdır.
+            Enum sabitleri “static” olmalıdır.
+    “new” ile enum türüne erişmek bir derleme hatasına yol açar.
+
+[33mcommit f09edccaae2ed08971ddc284eb26b980fb5ef94e[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 30 20:42:51 2024 +0300
+
+    OOPCOMPOSITION
+    
+    "Composition" veya "has-a relationship" (Türkçe karşılığı "bileşim" veya "sahip olma ilişkisi"),
+     nesne yönelimli programlamada sıkça kullanılan bir kavramdır. Bu kavram, bir sınıfın başka bir
+    sınıfın bir parçası olduğunu veya içerdiğini ifade eder.
+    "Bileşim" ilişkisi, bir sınıfın başka bir sınıfı içermesi veya içinde barındırması anlamına gelir.
+    Bu ilişki, bir sınıfın içinde başka bir sınıfın referansını tutarak gerçekleştirilir. Bu durumda,
+    bir sınıfın örnekleri diğer sınıfın örneklerini içerebilir ve bu örnekler birlikte çalışabilirler.
+    
+    BU KODUN PEK BİR ALAKASI OLMADI COMPOSITION KONUSU İLE..
+
+[33mcommit 1d8dd910b9dc52e197ac8b78f9283abd1bfb729c[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 30 20:04:56 2024 +0300
+
+    Update README.md
+
+[33mcommit 54c88c082d81e248cda8181c6c1127ac6b679eab[m
+Merge: 9a5945b 532927f
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 30 20:02:25 2024 +0300
+
+    Merge branch 'main' of https://github.com/berkayercan3/Nesne-Tabanli-Programlama
+
+[33mcommit 9a5945b5e2ee20ff047eba897d0bfcabf36b8397[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 30 20:02:13 2024 +0300
+
+    OOPCONSTRUCTOR_OVERLOADING
+    
+    Constructor Overloading (aşırı yükleme) : bir sınıfın altında birden fazla constructor (metot)
+    Oluşturarak, programın farklı başlatılma tekniklerinin yaratılmasını sağlar.
+
+[33mcommit 532927f1095f6ed71c3435dcbaa98feec609660b[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Fri Mar 29 21:50:42 2024 +0300
+
+    Update README.md
+
+[33mcommit 13d62e71eac67230b43c76bbaa300c492753b0cf[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Fri Mar 29 21:48:25 2024 +0300
+
+    OOP_ERROR
+    
+    Throw , try- catch , toString() , String.format() ,
+
+[33mcommit 39dfb533575aa081bdde67da383fe1250e08f333[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Thu Mar 28 22:00:33 2024 +0300
+
+    OOP_STATİC
+
+[33mcommit 94ec1b04f69806f3ddcf90752af2ea9fe1233fd3[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Thu Mar 28 21:50:28 2024 +0300
+
+    OOP_GET_SET
+
+[33mcommit 16cc4618cd5883c505c0fc297681f3089e523be8[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Thu Mar 28 20:40:19 2024 +0300
+
+    Düzenleme
+
+[33mcommit dc6cab707f78a33c6cec38c17e5ced3c3bced325[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 16 16:17:32 2024 +0300
+
+    Car_Color_Modified
+    
+    nesne yönelimli programlamaya güzel bir örnek
+
+[33mcommit 2e77f9b9bb4645be090c4ac5f65c79503237063e[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sat Mar 16 16:16:03 2024 +0300
+
+    GanoHesabi_OkulNoOlusturma
+
+[33mcommit 4d7c876465b5aaf170a481905ec68c023674aebd[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sun Mar 3 23:30:56 2024 +0300
+
+    OKUL NUMARA
+
+[33mcommit 78721fda0c5064c4d42c43a95cf41d2b867118d0[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sun Mar 3 23:26:13 2024 +0300
+
+    NesneTabanliProgramlamaOdev1
+
+[33mcommit aaf3eeef32f8a4b138ab24ebb909262dcac1d574[m
+Author: Berkay Ercan <115825102+berkayercan3@users.noreply.github.com>
+Date:   Sun Mar 3 23:21:59 2024 +0300
+
+    Initial commit
